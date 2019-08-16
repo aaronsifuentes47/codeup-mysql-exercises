@@ -11,7 +11,7 @@ from titles t
     join employees e
         on t.emp_no = e.emp_no
 where e.first_name = 'Aamod'
-group by title
+group by title;
 
 select first_name, last_name
 from dept_manager
